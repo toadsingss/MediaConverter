@@ -1,22 +1,35 @@
-.button {
-    -fx-background-color: #4CAF50;
-    -fx-text-fill: white;
-    -fx-font-size: 14px;
-    -fx-padding: 8px 15px;
-    -fx-background-radius: 8px;
-}
-
-.button:hover {
-    -fx-background-color: #45a049;
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #2c3e50, #34495e);
 }
 
 .label {
-    -fx-font-weight: bold;
+    -fx-text-fill: white;
     -fx-font-size: 14px;
 }
 
-.text-field {
-    -fx-padding: 5px;
-    -fx-background-radius: 5px;
-    -fx-border-color: #ccc;
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 20px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.progress-bar {
+    -fx-accent: #2ecc71;
+}
+
+.combo-box .list-cell 
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em; 
 }
